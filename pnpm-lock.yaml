@@ -5,7 +5,7 @@ specifiers:
   '@zardoy/tsconfig': ^1.5.0
   eslint: ^8.16.0
   eslint-config-zardoy: ^0.2.11
-  pluralize: github:plurals/pluralize
+  pluralize: github:plurals/pluralize#36f03cd2d573fa6d23e12e1529fa4627e2af74b4
   typescript: ^4.7.2
   vitest: ^0.12.9
 

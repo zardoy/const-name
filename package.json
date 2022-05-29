@@ -27,7 +27,7 @@
         "vitest": "^0.12.9"
     },
     "dependencies": {
-        "pluralize": "github:plurals/pluralize"
+        "pluralize": "github:plurals/pluralize#36f03cd2d573fa6d23e12e1529fa4627e2af74b4"
     },
     "release": {
         "initialVersion": {
