@@ -3,9 +3,9 @@
     "compilerOptions": {
         "noEmit": false,
         "declaration": true,
-        "outDir": "build"
+        "outDir": "build",
+        "esModuleInterop": true,
+        "module": "CommonJS"
     },
-    "include": [
-        "src"
-    ]
+    "include": ["src"]
 }
