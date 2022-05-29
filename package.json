@@ -1,0 +1,47 @@
+{
+    "name": "const-name",
+    "main": "build/index.js",
+    "description": "Infer variable name from call or singular form from JS expression",
+    "version": "0.0.0-dev",
+    "author": "Vitaly Turovsky <vital2580@icloud.com>",
+    "license": "MIT",
+    "scripts": {
+        "prepublishOnly": "tsc",
+        "watch": "tsc --watch",
+        "test": "vitest --globals",
+        "lint": "eslint src/**"
+    },
+    "keywords": [
+        "derive",
+        "array",
+        "item",
+        "variable",
+        "infer"
+    ],
+    "devDependencies": {
+        "@types/pluralize": "^0.0.29",
+        "@zardoy/tsconfig": "^1.5.0",
+        "eslint": "^8.16.0",
+        "eslint-config-zardoy": "^0.2.11",
+        "typescript": "^4.7.2",
+        "vitest": "^0.12.9"
+    },
+    "dependencies": {
+        "pluralize": "github:plurals/pluralize"
+    },
+    "release": {
+        "initialVersion": {
+            "version": "0.1.0"
+        },
+        "cleanSource": true
+    },
+    "prettier": {
+        "semi": false,
+        "singleQuote": true,
+        "proseWrap": "never",
+        "tabWidth": 4,
+        "trailingComma": "all",
+        "arrowParens": "avoid",
+        "printWidth": 160
+    }
+}
