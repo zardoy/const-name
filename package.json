@@ -6,8 +6,8 @@
     "author": "Vitaly Turovsky <vital2580@icloud.com>",
     "license": "MIT",
     "scripts": {
-        "prepublishOnly": "tsc",
-        "watch": "tsc --watch",
+        "prepublishOnly": "tsc -p tsconfig.build.json",
+        "watch": "tsc -p tsconfig.build.json --watch",
         "test": "vitest --globals",
         "lint": "eslint src/**"
     },
@@ -32,8 +32,7 @@
     "release": {
         "initialVersion": {
             "version": "0.1.0"
-        },
-        "cleanSource": true
+        }
     },
     "prettier": {
         "semi": false,
